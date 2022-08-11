@@ -1,0 +1,59 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.head {
+    height: 30vw;
+    background: url("../../images/opera-back.png") no-repeat center/cover;
+}
+.main{
+    background: #d1c7b7;
+}
+.main .part {
+    height: 65vw;
+    display: flex;
+}
+.main .part .content {
+    width: 50vw;
+    padding: 4vw;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 2vw;
+    color: #1d1626;
+    font-family: YouYuan;
+}
+.part .content span{
+    font-weight: bolder;
+    font-style: italic;
+}
+.main .part .img1 {
+    width: 50vw;
+    background: url("../../images/opera-main1.png") no-repeat center/cover;
+}
+.main .part .img2 {
+    width: 50vw;
+    background: url("../../images/opera-main2.png") no-repeat center/cover;
+}
+.main .part .img3 {
+    width: 50vw;
+    background: url("../../images/opera-main3.png") no-repeat center/cover;
+}
+ul {
+    height: 20vw;
+    width: 80vw;
+    padding: 0;
+    position: absolute;
+    margin-left: 10vw;
+    top: 4vw;
+    list-style: none;
+}
+ul:hover {
+    cursor: pointer;
+}
+li {
+    position: absolute;
+    left: 0;
+    transition: 0.4s;
+}

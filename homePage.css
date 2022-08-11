@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("./images/homePage .png") no-repeat center/contain;
+  background-color: black; }
+  body .homeBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; }
+    body .homeBox .biaoyu {
+      margin-top: 40vh;
+      font-size: 2vh;
+      line-height: 1.5vh;
+      margin-bottom: 3vh;
+      font-family: "华文楷体"; }
+    body .homeBox a {
+      width: 13vw;
+      height: 6vh;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 5px;
+      opacity: 0.8;
+      background: linear-gradient(to right, #aa2116 30%, #f2eada 90%); }
+      body .homeBox a div {
+        font-size: 3vh;
+        font-family: "华文楷体";
+        line-height: 6vh; }
+    body .homeBox .label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: 5vw;
+      top: 5vh;
+      height: 5vh; }
+      body .homeBox .label .icon {
+        background: url(./images/homePage-icon.png) no-repeat center/contain;
+        width: 5vh;
+        height: 5vh;
+        margin-right: 0.5vw; }
+      body .homeBox .label .zhongE {
+        font-size: 1vh;
+        font-weight: 600;
+        line-height: 5vh; }

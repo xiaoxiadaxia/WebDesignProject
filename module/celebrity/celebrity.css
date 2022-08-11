@@ -1,0 +1,83 @@
+@charset "UTF-8";
+::-webkit-scrollbar {
+  display: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background: #11264f;
+  overflow-x: hidden; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+ul.container {
+  width: 100%;
+  margin-top: 8vw; }
+  ul.container li.item {
+    width: 70vw;
+    height: 15vw;
+    margin: 0 auto;
+    margin-bottom: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    ul.container li.item div.wire {
+      width: 2px;
+      height: 12vw;
+      border-right: 1px solid #ffffff; }
+    ul.container li.item .part {
+      width: 20vw;
+      height: 15vw;
+      cursor: pointer;
+      position: relative; }
+      ul.container li.item .part .intro {
+        width: 100%;
+        height: 100%;
+        padding: 2vw;
+        box-sizing: border-box;
+        font-size: 1.2vw;
+        font-family: "楷体";
+        color: #ffffff;
+        background: #ae6642;
+        transition-duration: 1s;
+        opacity: 0; }
+        ul.container li.item .part .intro:hover {
+          opacity: 0.7; }
+      ul.container li.item .part .name {
+        position: absolute;
+        bottom: -1.8vw;
+        font-size: 1vw;
+        font-family: "华文宋体";
+        color: #ffffff;
+        width: 20vw;
+        text-align: center; }
+    ul.container li.item .lao {
+      background: url("../../images/laozi.png") no-repeat center/cover; }
+    ul.container li.item .zhuang {
+      background: url("../../images/zhuangzi.png") no-repeat center/cover; }
+    ul.container li.item .mo {
+      background: url("../../images/mozi.png") no-repeat center/cover; }
+    ul.container li.item .hanfei {
+      background: url("../../images/hanfei.png") no-repeat center/cover; }
+    ul.container li.item .zhangheng {
+      background: url("../../images/zhangheng.png") no-repeat center/cover; }
+    ul.container li.item .zhangzhong {
+      background: url("../../images/zhangzhong.png") no-repeat center/cover; }
+    ul.container li.item .bai {
+      background: url("../../images/baiju.png") no-repeat center/cover; }
+    ul.container li.item .du {
+      background: url("../../images/dufu.png") no-repeat center/cover; }
+    ul.container li.item .li {
+      background: url("../../images/lihe.png") no-repeat center/cover; }
+    ul.container li.item .hanyu {
+      background: url("../../images/hanyu.png") no-repeat center/cover; }
+    ul.container li.item .yang {
+      background: url("../../images/yangjing.png") no-repeat center/cover; }
+    ul.container li.item .yue {
+      background: url("../../images/yuefei.png") no-repeat center/cover; }

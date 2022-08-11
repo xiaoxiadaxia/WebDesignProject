@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+  background: #d1c7b7; }
+  body .head {
+    width: 80vw;
+    height: 70vh;
+    margin: 0 auto;
+    background: url("../../images/eat-titile.png") no-repeat center/cover;
+    border-bottom: 2px solid #ffffff; }
+  body .title-main {
+    margin-top: 3vw;
+    margin-bottom: 4vw; }
+    body .title-main .title-content {
+      font-size: 3vw;
+      font-family: "华文行楷";
+      color: #840228;
+      text-align: center; }
+    body .title-main .vote {
+      font-size: 3vw;
+      font-family: "方正舒体";
+      color: #1b315e;
+      text-align: center; }
+  body main {
+    width: 70vw;
+    margin-left: 4vw;
+    position: relative; }
+    body main .part {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 25vh;
+      padding: 3vw;
+      margin-bottom: 4vh;
+      box-sizing: border-box;
+      border-radius: 10px;
+      position: relative;
+      background: #4f5555;
+      transition-duration: 0.5s; }
+      body main .part:hover {
+        box-shadow: 4px 4px 5px 8px #464547; }
+      body main .part audio {
+        position: absolute;
+        right: -22vw; }
+      body main .part .introduction {
+        width: 40vw;
+        line-height: 1.5vw;
+        font-size: 1vw;
+        font-family: '华文宋体';
+        color: #ffffff; }
+      body main .part img {
+        border-radius: 50%;
+        margin: 0 5vw;
+        width: 10vw;
+        height: 10vw; }
+      body main .part .praise {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        right: 0.5vw;
+        bottom: 1vh;
+        width: 4vw;
+        height: 3vh; }
+        body main .part .praise .icon {
+          background: url("../../images/praise.png") no-repeat center/cover;
+          width: 1.5vw;
+          height: 1.5vw;
+          cursor: pointer; }
+        body main .part .praise .num {
+          font-size: 1.5vw;
+          font-family: YouYuan;
+          color: white; }
+    body main .two img {
+      border-radius: 0; }
+  body footer div {
+    font-size: 2vw;
+    font-family: "YouYuan";
+    font-weight: 600;
+    margin-bottom: 3vh;
+    text-align: center; }

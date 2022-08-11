@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative; }
+  body nav {
+    width: 100vw;
+    height: 8vh;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    align-content: center;
+    position: fixed;
+    background: url("../../images/heritage.png") no-repeat center/cover; }
+    body nav .one, body nav .two, body nav .three {
+      text-align: center;
+      height: 8vh;
+      line-height: 8vh;
+      font-size: 1.5vw;
+      font-family: YouYuan;
+      flex: 1;
+      cursor: pointer; }
+    body nav .one {
+      background: #ffffff;
+      color: #27342b;
+      font-weight: bolder;
+      font-size: 2vw; }
+  body .wire1, body .wire2 {
+    position: absolute;
+    top: 2vh;
+    left: 33.25vw;
+    height: 4vh;
+    border-right: 2px solid #8a5d19; }
+  body .wire2 {
+    left: 66.6vw; }
+  body main {
+    width: 100vw;
+    padding-top: 8vh;
+    box-sizing: border-box; }
+    body main .content1 {
+      height: 92vh;
+      padding-top: 8vh;
+      box-sizing: border-box;
+      background: url("../../images/heritage-icon1.png") no-repeat center/cover; }
+      body main .content1 .main {
+        margin-left: 4vw;
+        font-size: 2vw;
+        color: #ffffff;
+        font-family: KaiTi;
+        height: 14vw;
+        writing-mode: vertical-lr; }
+    body main .content2, body main .content3 {
+      display: none; }
+    body main .content2 {
+      height: 92vh;
+      padding-top: 2vh;
+      box-sizing: border-box;
+      background: url("../../images/heritage-icon2.png") no-repeat center/cover; }
+      body main .content2 .main {
+        margin-left: 70vw; }
+        body main .content2 .main p {
+          font-size: 3vh;
+          height: 2vh;
+          line-height: 2vh;
+          color: #2f271d;
+          font-family: KaiTi; }
+        body main .content2 .main p.main-bottom {
+          color: #f2eada; }
+    body main .content3 {
+      height: 92vh;
+      padding-top: 2vh;
+      box-sizing: border-box;
+      background: url("../../images/heritage-icon3.png") no-repeat center/cover; }
+      body main .content3 .main {
+        font-size: 3vh;
+        line-height: 2vh;
+        text-align: center;
+        color: white;
+        font-family: KaiTi; }
